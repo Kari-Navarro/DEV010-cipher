@@ -19,6 +19,7 @@ Para crear el algoritmo de cifrado se empleó el código ASCII y, con sus valore
 El desplazamiento funciona hasta el número 50 y en el primero caja se ingresa el abecedario tradicional y en la caja inferior el abecedario con el desplazamiento indicado.
 
 El diseño empleado fue lo más minimalista posible para enfocar la atención de la usuaria en las cajas de texto y los colores obscuros fueron elegidos para darle confidencialidad y discreción.
+![Funcionamiento del generador de contraseñas]([ruta/de/la/imagen.png](imagenes))
 
 # Autor
 Karina Navarro (New born developer)
