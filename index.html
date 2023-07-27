@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+        <h1>Generador de contraseñas cifrado Cesar</h1>
+        <p>Crea constraseñas seguras para proteger tus cuentas basado en el método del cifrado Cesar🔒. Ingresa una contraseña a cifrar en letras mayúsculas, agrega un número para obtener el desplazamiento y obten el resultado👩‍💻. Esta página <strong>NO</strong> permite cifrar con letras minúsculas👀 o cualquier otro signo 😪. El desplazamiento se obtendrá números enteros 👍. </p>
+      
+      <section id="cajadesplazamiento">    
+        <label for="offset"><strong>Número de desplazamientos del 1 al 50:</strong></label>
+        <input type="number" id="offset" min="1" max="50"/>
+      </section>
+      
+      <section class= "grupocajatexto">
+        <label for="cajaA"><strong>Mensaje a Codificar 🔐:</strong></label>
+        <textarea id="cajaA" placeholder="Ingresa el mensaje codificado"></textarea>
+
+        <label for="cajaB"><strong>Mensaje a Descodificar 🔑:</strong></label>
+        <textarea id="cajaB" placeholder="Mensaje descodificado"></textarea>
+      </section>
+
+      <section class="botones">
+        <button id="botoncodificar">Codificar</button>
+        <button id="botondescodificar">Descodificar</button>
+        <button id="botonlimpiar">Limpiar</button>
+      </section>
+
+      </main>
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>

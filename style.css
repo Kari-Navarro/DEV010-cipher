@@ -1,0 +1,38 @@
+body {background-image: linear-gradient(to bottom, #320537, #370049, #38005d, #320073, #19038c);
+      font-family: 'Source Sans Pro';
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: #e0e0e0}
+
+main {background-color: #26272783;
+    padding: 25px;
+    margin-top: 60px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 60px;
+    box-shadow: 8px 8px 35px 0px black;
+    border-radius: 15px;
+}
+
+#offset {justify-content: center;
+    background-color: #000000;
+    color: #e9e9e9}
+
+.grupocajatexto {
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    }
+
+textarea{background-color: #000000;
+    color: #e9e9e9;
+    height: 80px;
+        }
+
+.botones {
+        color: white;
+        font-family:'Gill Sans MT';
+        font-size: medium;
+        font-weight: bold;}
